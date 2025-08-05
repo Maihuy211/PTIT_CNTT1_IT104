@@ -26,5 +26,5 @@ const studentList = [
 console.log(getStudentById(studentList, "1"));
 console.log(getTopStudents(studentList));
 console.log(getClassAverage(studentList));
-console.log(getStudentsByScoreRange(studentList, 5, 8));
+console.log(getStudentsByScoreRange(studentList, 5, 9));
 console.log(sortStudentsByName(studentList));
