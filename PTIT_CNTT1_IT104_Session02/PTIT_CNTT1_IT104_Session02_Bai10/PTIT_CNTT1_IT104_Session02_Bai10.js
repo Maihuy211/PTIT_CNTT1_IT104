@@ -9,7 +9,7 @@ const getOrderSummary = (products) => {
     const { name, price, discount, quantity, bulkDiscount } = product;
 
     let count = discount;
-    if (bulkDiscount && quantity >= bulkDiscount.minQuantity) {
+    if (quantity >= bulkDiscount.minQuantity) {
       count += bulkDiscount.extraDiscount;
     }
 
