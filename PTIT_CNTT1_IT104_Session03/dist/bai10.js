@@ -1,0 +1,20 @@
+"use strict";
+const type = "hello world apple banana orange pumpkin cucumber";
+const words = type.split(" ");
+let longestWord = "";
+for (let i = 0; i < words.length; i++) {
+    const word = words[i];
+    let resultStr = "";
+    for (let j = 0; j < word.length; j++) {
+        let char = word.charAt(j);
+        if (!resultStr.includes(char)) {
+            resultStr += char;
+        }
+    }
+    if (resultStr.length === word.length) {
+        if (word.length > longestWord.length) {
+            longestWord = word;
+        }
+    }
+}
+console.log(longestWord);
