@@ -1,0 +1,51 @@
+#root { 
+  height: 100%;
+  width: 100%; 
+}
+body{
+    background-color: white;
+    color: black;
+    height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap : 10px ;
+}
+.header {
+  background-color: #cbd5e0;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+}
+.container-main{
+    display: flex;
+    gap: 30px;
+}
+
+.menu {
+  flex :1;
+  background-color: blue ;
+  color: white;
+  padding: 200px 100px;
+  text-align: center;
+  height: 100%;
+}
+.content{
+    flex :2;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+  background-color: #ffffff;
+  text-align: center;
+  height: 100%;
+}
+.footer {
+  background-color: #cbd5e0; 
+  text-align: center;
+  width: 100%;
+}

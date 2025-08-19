@@ -1,0 +1,66 @@
+#root { 
+  height: 100%;
+  width: 100%; 
+}
+body {
+  background-color: white;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.header {
+  background-color: #cbd5e0;
+  text-align: center;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+.nav {
+  background-color: #cbd5e0;
+  text-align: center;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+
+}
+
+.menu { 
+  flex: 1;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.main {
+  flex: 3;
+  background-color: #fff0f0;
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 15px;         
+  padding: 20px;
+}
+
+.cart {
+  width: calc(25% - 75px);  
+  background: #fff;
+  text-align: center;
+  padding: 30px;
+}
+.article {
+  flex: 1;
+  background-color: #90caf9;
+  text-align: center;
+  padding: 20px;
+}
+
