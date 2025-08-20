@@ -1,8 +1,8 @@
 import Header from "./Header";
 import Navbar from "./Navbar";
 import Main from "./Main";
-import Article from "./Article";
 import Menu from "./Menu";
+import Aricle from "./Article";
 import "../style/UserLayout.css"
 const UserLayout = () => {
   return (
@@ -12,7 +12,7 @@ const UserLayout = () => {
         <main className="content"> 
             <Menu></Menu>
             <Main></Main>
-            <Article></Article>
+            <Aricle></Aricle>
         </main>
     </div>
   );
