@@ -12,7 +12,8 @@ const Table = () => {
             <th>Giới tính</th>
             <th>Địa chỉ</th>
             <th>Hành động</th>
-          </tr>`
+          </tr>
+          `
         </thead>
         <tbody>
           <tr>

@@ -1,0 +1,40 @@
+.student-header {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Nút thêm mới */
+.btn-add {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.btn-add:hover {
+  background-color: #0056b3;
+}
+
+/* Select box */
+.sort-select {
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Ô tìm kiếm */
+.search-box {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}

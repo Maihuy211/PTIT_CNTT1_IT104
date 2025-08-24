@@ -1,0 +1,10 @@
+.student-management {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.student-management h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

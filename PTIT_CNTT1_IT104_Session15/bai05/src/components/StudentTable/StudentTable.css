@@ -1,0 +1,61 @@
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.student-table th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+/* Trạng thái */
+.status-active {
+  color: green;
+  background: #eafbe7;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.status-inactive {
+  color: red;
+  background: #fde4e4;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+/* Các nút chức năng */
+.btn {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn-block {
+  background: #e4d9fb;
+  color: #4a2ea4;
+}
+
+.btn-edit {
+  background: #ffe4b2;
+  color: #a06000;
+}
+
+.btn-delete {
+  background: #f9b2b2;
+  color: #a00000;
+}
