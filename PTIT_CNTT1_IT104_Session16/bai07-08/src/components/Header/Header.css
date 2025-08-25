@@ -1,0 +1,43 @@
+.hd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ff7a00;
+  color: #fff;
+  padding: 12px 20px;
+}
+.hd__logo {
+  font-weight: 700;
+  font-size: 18px;
+}
+.hd__nav {
+  display: flex;
+  gap: 16px;
+}
+.hd__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.hd__link:hover {
+  text-decoration: underline;
+}
+.hd__cart {
+  position: relative;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.hd__badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: #e41313;
+  color: #fff;
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  font-weight: 700;
+}

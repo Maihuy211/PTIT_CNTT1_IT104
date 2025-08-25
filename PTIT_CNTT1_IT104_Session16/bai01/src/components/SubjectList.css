@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  margin-left: 18px;
+}
+.list {
+  list-style: none;
+  border: 1px solid #e0f7fa;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background-color: #e0f7fa;
+  color: #1f6da8;
+  padding: 3px 10px;
+  font-size: 14px;
+}

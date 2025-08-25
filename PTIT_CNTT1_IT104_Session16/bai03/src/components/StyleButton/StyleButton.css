@@ -1,0 +1,8 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20%;
+}
+body {
+  background: #333;
+}

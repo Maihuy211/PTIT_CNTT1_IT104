@@ -1,0 +1,43 @@
+.sc {
+  min-height: 100vh;
+  background: #f7f7f8;
+}
+
+/* bỏ max-width để full màn hình */
+.sc__main {
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 50px; /* cột sản phẩm + cột cart */
+  gap: 20px;
+}
+
+.sc__products {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 16px;
+  width: 100%;
+}
+
+.sc__title {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* Grid sản phẩm: 4 cột cố định */
+.sc__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+/* Cart dính bên phải */
+.sc__cart {
+  position: sticky;
+  top: 16px;
+  height: fit-content;
+}
