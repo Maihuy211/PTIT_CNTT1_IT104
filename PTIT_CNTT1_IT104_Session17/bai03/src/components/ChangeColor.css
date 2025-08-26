@@ -1,0 +1,14 @@
+body {
+  justify-content: center;
+  display: flex;
+  margin-top: 20%;
+}
+button {
+  margin-top: 50x;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
