@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.color {
+  width: 100px;
+  height: 100px;
+}
