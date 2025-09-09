@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+
+  gap: 10px;
+  font-size: 40px;
+}
+.outlet {
+  display: flex;
+  gap: 20px;
+}
+.active {
+  color: white;
+  background-color: red;
+  padding: 2px;
+  text-decoration: none;
+}
+.p {
+  text-decoration: none;
+  color: black;
+}

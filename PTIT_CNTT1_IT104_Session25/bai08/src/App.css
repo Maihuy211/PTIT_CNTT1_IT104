@@ -1,0 +1,13 @@
+.list-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.user-card {
+  border: 1px solid gray;
+  padding: 15px;
+  width: 200px;
+  text-align: left;
+}
