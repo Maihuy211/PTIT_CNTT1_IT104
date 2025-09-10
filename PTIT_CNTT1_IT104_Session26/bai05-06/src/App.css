@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.container-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+input,
+select,
+button {
+  width: 100%;
+}
