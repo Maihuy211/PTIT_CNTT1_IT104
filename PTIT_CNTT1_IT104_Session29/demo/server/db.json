@@ -1,0 +1,124 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Huy",
+      "dateOfBirth": "2001-01-01",
+      "email": "huy@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "An",
+      "dateOfBirth": "2001-01-25",
+      "email": "an@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Linh",
+      "dateOfBirth": "2002-05-10",
+      "email": "linh2002@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Minh",
+      "dateOfBirth": "2000-08-12",
+      "email": "minh_it@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Thảo",
+      "dateOfBirth": "1999-11-22",
+      "email": "thao99@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Nam",
+      "dateOfBirth": "2001-03-15",
+      "email": "nam123@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Trang",
+      "dateOfBirth": "2002-07-18",
+      "email": "trang2002@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "Tuấn",
+      "dateOfBirth": "2000-09-20",
+      "email": "tuan_it@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "Lan",
+      "dateOfBirth": "1998-12-30",
+      "email": "lan_98@gmail.com"
+    },
+    {
+      "id": 10,
+      "name": "Phúc",
+      "dateOfBirth": "2001-06-05",
+      "email": "phuc01@gmail.com"
+    },
+    {
+      "id": 11,
+      "name": "Ngọc",
+      "dateOfBirth": "2002-02-14",
+      "email": "ngoc2002@gmail.com"
+    },
+    {
+      "id": 12,
+      "name": "Hải",
+      "dateOfBirth": "1999-04-25",
+      "email": "hai99@gmail.com"
+    },
+    {
+      "id": 13,
+      "name": "Vy",
+      "dateOfBirth": "2001-08-08",
+      "email": "vy2001@gmail.com"
+    },
+    {
+      "id": 14,
+      "name": "Quang",
+      "dateOfBirth": "2000-10-02",
+      "email": "quang_it@gmail.com"
+    },
+    {
+      "id": 15,
+      "name": "Kiên",
+      "dateOfBirth": "2001-12-01",
+      "email": "kien2001@gmail.com"
+    },
+    {
+      "id": 16,
+      "name": "Mai",
+      "dateOfBirth": "1999-03-03",
+      "email": "mai99@gmail.com"
+    },
+    {
+      "id": 17,
+      "name": "Khánh",
+      "dateOfBirth": "2002-09-19",
+      "email": "khanh2002@gmail.com"
+    },
+    {
+      "id": 18,
+      "name": "Phương",
+      "dateOfBirth": "2000-11-11",
+      "email": "phuong00@gmail.com"
+    },
+    {
+      "id": 19,
+      "name": "Đạt",
+      "dateOfBirth": "2001-07-07",
+      "email": "dat2001@gmail.com"
+    },
+    {
+      "id": 20,
+      "name": "Yến",
+      "dateOfBirth": "2002-01-20",
+      "email": "yen2002@gmail.com"
+    }
+  ]
+}

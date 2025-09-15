@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "iPhone 15 Pro Max",
+      "image": "https://example.com/images/iphone15promax.jpg",
+      "price": 33990000,
+      "quantity": 10,
+      "created_at": "2025-09-01"
+    },
+    {
+      "id": 2,
+      "product_name": "Samsung Galaxy S24 Ultra",
+      "image": "https://example.com/images/galaxys24ultra.jpg",
+      "price": 29990000,
+      "quantity": 15,
+      "created_at": "2025-09-05"
+    },
+    {
+      "id": 3,
+      "product_name": "MacBook Air M3",
+      "image": "https://example.com/images/macbookairm3.jpg",
+      "price": 28990000,
+      "quantity": 8,
+      "created_at": "2025-09-10"
+    },
+    {
+      "id": 4,
+      "product_name": "Asus ROG Zephyrus G16",
+      "image": "https://example.com/images/asusrogzephyrusg16.jpg",
+      "price": 45990000,
+      "quantity": 5,
+      "created_at": "2025-09-12"
+    },
+    {
+      "id": 5,
+      "product_name": "Sony WH-1000XM5",
+      "image": "https://example.com/images/sonywh1000xm5.jpg",
+      "price": 8990000,
+      "quantity": 20,
+      "created_at": "2025-09-14"
+    }
+  ],
+  "students": [
+    {
+      "id": 2,
+      "student_name": "Trần Thị Bích",
+      "email": "bich.tran@example.com",
+      "address": "45 Trần Hưng Đạo, TP.HCM",
+      "phone": "0912345678",
+      "status": false,
+      "created_at": "2025-02-05"
+    },
+    {
+      "id": 3,
+      "student_name": "Phạm Minh Hoàng",
+      "email": "hoang.pham@example.com",
+      "address": "67 Nguyễn Huệ, Đà Nẵng",
+      "phone": "0901234567",
+      "status": true,
+      "created_at": "2025-03-01"
+    },
+    {
+      "id": 4,
+      "student_name": "Lê Thu Hà",
+      "email": "ha.le@example.com",
+      "address": "89 Lý Thường Kiệt, Hải Phòng",
+      "phone": "0976543210",
+      "status": true,
+      "created_at": "2025-04-15"
+    },
+    {
+      "id": 5,
+      "student_name": "Đỗ Văn Nam",
+      "email": "nam.do@example.com",
+      "address": "22 Nguyễn Trãi, Cần Thơ",
+      "phone": "0938123456",
+      "status": false,
+      "created_at": "2025-05-20"
+    }
+  ]
+}
