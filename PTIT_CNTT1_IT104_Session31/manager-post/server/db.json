@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "State trong ReactJS",
+      "img": "https://images.viblo.asia/d0325af4-85c5-4e0d-a32d-2aeea0171f3a.png",
+      "createAt": "2023-03-04",
+      "status": "active"
+    },
+    {
+      "title": "Tổng quan về React",
+      "img": "https://cdn.codegym.vn/wp-content/uploads/2023/11/reactjs-tong-quan-ve-reactjs.jpg",
+      "createAt": "2023-03-03",
+      "status": "active",
+      "id": 2
+    }
+  ]
+}

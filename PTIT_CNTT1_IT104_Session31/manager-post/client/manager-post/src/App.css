@@ -1,0 +1,5 @@
+@import "tailwindcss";
+[data-color-mode="light"] .w-md-editor {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
