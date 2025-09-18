@@ -55,7 +55,7 @@ export default function InputPost({
             ]}
             onChange={(value) =>
               setSearchStatus(value as "all" | "active" | "inactive")
-            } // ⬅ ép kiểu
+            } 
           />
         </Form.Item>
       </Form>

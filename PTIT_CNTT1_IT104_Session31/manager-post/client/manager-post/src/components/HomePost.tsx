@@ -21,7 +21,9 @@ export type NewPostType = {
 export default function HomePost() {
   const [posts, setPosts] = useState<PostType[]>([]);
   const [searchKeyword, setSearchKeyword] = useState(""); // từ khoá tìm kiếm
-  const [searchStatus, setSearchStatus] = useState<"active" | "inactive" | "all">("all"); // trạng thái lọc
+  const [searchStatus, setSearchStatus] = useState<
+    "active" | "inactive" | "all"
+  >("all"); // trạng thái lọc
 
   // Lấy danh sách post theo keyword và status
   const getPosts = async () => {
@@ -39,14 +41,16 @@ export default function HomePost() {
 
   useEffect(() => {
     getPosts();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchKeyword, searchStatus]); // gọi lại khi từ khoá hoặc trạng thái thay đổi
 
   // Cập nhật trạng thái active/inactive
   const toggleTask = async (id: number, status: "active" | "inactive") => {
     try {
       const newStatus = status === "active" ? "inactive" : "active";
-      await axios.patch(`http://localhost:8080/posts/${id}`, { status: newStatus });
+      await axios.patch(`http://localhost:8080/posts/${id}`, {
+        status: newStatus,
+      });
       getPosts();
     } catch (err) {
       console.error(err);
@@ -55,7 +59,8 @@ export default function HomePost() {
 
   // Thêm bài viết mới
   const addPost = (newPost: NewPostType) => {
-    axios.post("http://localhost:8080/posts", newPost)
+    axios
+      .post("http://localhost:8080/posts", newPost)
       .then(() => getPosts())
       .catch((err) => console.error(err));
   };
@@ -71,8 +76,8 @@ export default function HomePost() {
   };
 
   return (
-    <div className="p-20 flex justify-center">
-      <div className="bg-white shadow-2xl p-5 rounded w-[85%]">
+    <div className="pt-20 p-1 flex justify-center">
+      <div className="bg-white shadow-2xl p-5 rounded w-[100%]">
         <InputPost
           addPost={addPost}
           setSearchKeyword={setSearchKeyword}
