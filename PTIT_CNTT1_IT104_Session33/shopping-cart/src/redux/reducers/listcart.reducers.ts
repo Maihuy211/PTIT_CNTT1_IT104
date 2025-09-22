@@ -1,4 +1,4 @@
-import { ADD_CART, DELETE_CART } from "../constants/type";
+vimport { ADD_CART, DELETE_CART } from "../constants/type";
 import { listProduct } from "./listproduct.reducers";
 
 export type CartItem = {

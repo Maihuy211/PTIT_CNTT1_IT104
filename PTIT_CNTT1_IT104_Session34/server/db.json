@@ -1,0 +1,49 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Văn A",
+      "age": 20,
+      "gender": "Nam",
+      "dateOfBirth": "2005-03-15",
+      "placeOfBirth": "Hà Nội",
+      "address": "123 Nguyễn Trãi, Thanh Xuân, Hà Nội"
+    },
+    {
+      "id": 2,
+      "fullName": "Trần Thị B",
+      "age": 22,
+      "gender": "Nữ",
+      "dateOfBirth": "2003-07-21",
+      "placeOfBirth": "TP. Hồ Chí Minh",
+      "address": "45 Lê Lợi, Quận 1, TP. Hồ Chí Minh"
+    },
+    {
+      "id": 3,
+      "fullName": "Lê Văn C",
+      "age": 19,
+      "gender": "Nam",
+      "dateOfBirth": "2006-11-05",
+      "placeOfBirth": "Đà Nẵng",
+      "address": "78 Nguyễn Văn Linh, Hải Châu, Đà Nẵng"
+    },
+    {
+      "id": 4,
+      "fullName": "Phạm Thị D",
+      "age": 21,
+      "gender": "Nữ",
+      "dateOfBirth": "2004-01-30",
+      "placeOfBirth": "Hải Phòng",
+      "address": "12 Trần Phú, Ngô Quyền, Hải Phòng"
+    },
+    {
+      "id": 5,
+      "fullName": "Hoàng Văn E",
+      "age": 23,
+      "gender": "Nam",
+      "dateOfBirth": "2002-09-12",
+      "placeOfBirth": "Cần Thơ",
+      "address": "90 Mậu Thân, Ninh Kiều, Cần Thơ"
+    }
+  ]
+}
