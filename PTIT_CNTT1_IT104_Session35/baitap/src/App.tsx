@@ -1,13 +1,14 @@
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import ChangeLanguage from "./components/ChangeLanguage";
 import Counter from "./components/Counter";
 import ListUser from "./components/ListUser";
-import Login from "./components/Login";
 import ModeFlex from "./components/ModeFlex";
 import RandomNumber from "./components/RandomNumber";
 import ThemeToggle from "./components/ThemeToggle";
+import Sidebar from "./components/Sidebar";
+import { Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -16,11 +17,12 @@ function App() {
       <RandomNumber></RandomNumber>
       <ThemeToggle></ThemeToggle>
       <ModeFlex></ModeFlex>
+      <Sidebar></Sidebar>
       <ChangeLanguage></ChangeLanguage>
       <ListUser></ListUser>
       <Routes>
-        <Route path="/hompage" element={<HomePage />} />
         <Route path="/" element={<Login />} />
+        <Route path="/homepage" element={<HomePage />} />
       </Routes>
     </div>
   );
