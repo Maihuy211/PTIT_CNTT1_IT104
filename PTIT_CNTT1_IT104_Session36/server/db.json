@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 3,
-      "taskName": "Họp với nhóm dự án",
-      "completed": false,
-      "priority": "High"
-    },
-    {
       "id": 4,
       "taskName": "Cập nhật tài liệu kỹ thuật",
       "completed": true,
@@ -17,6 +11,12 @@
       "taskName": "Gửi email cho khách hàng",
       "completed": false,
       "priority": "Medium"
+    },
+    {
+      "taskName": "ăn cơn",
+      "completed": false,
+      "priority": "Thấp",
+      "id": 6
     }
   ]
 }

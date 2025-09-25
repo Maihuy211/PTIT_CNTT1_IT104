@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Nguyen Van A",
+      "age": 20,
+      "grade": "CNTT2"
+    },
+    {
+      "id": 2,
+      "name": "Dang Thi B",
+      "age": 19,
+      "grade": "CNTT1"
+    },
+    {
+      "id": 3,
+      "name": "Le Van C",
+      "age": 19,
+      "grade": "CNTT3"
+    },
+    {
+      "id": 4,
+      "name": "Pham Thi D",
+      "age": 22,
+      "grade": "CNTT1"
+    },
+    {
+      "id": 5,
+      "name": "Hoang Van E",
+      "age": 20,
+      "grade": "CNTT2"
+    },
+    {
+      "name": "Mai Văn Huy",
+      "age": 12,
+      "grade": "CNTT1",
+      "id": 6
+    },
+    {
+      "name": "ĐInh Trọng An",
+      "age": 14,
+      "grade": "CNTT1",
+      "id": 7
+    },
+    {
+      "name": "Đinh Đình Thành",
+      "age": 23,
+      "grade": "CNTT1",
+      "id": 8
+    }
+  ]
+}
