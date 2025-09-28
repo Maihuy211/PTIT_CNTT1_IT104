@@ -3,8 +3,8 @@
     {
       "id": 4,
       "taskName": "Cập nhật tài liệu kỹ thuật",
-      "completed": true,
-      "priority": "Low"
+      "priority": "Low",
+      "completed": false
     },
     {
       "id": 5,

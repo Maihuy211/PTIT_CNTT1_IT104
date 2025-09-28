@@ -7,7 +7,6 @@ const { Option } = Select;
 export default function FilterTask() {
   const dispatch = useAppDispatch();
 
-  // Khi người dùng thay đổi bộ lọc => gọi API lại
   const handleFilter = (value: string) => {
     dispatch(getAllTask(value));
   };
@@ -21,7 +20,7 @@ export default function FilterTask() {
           className="w-[150px]"
           onChange={handleFilter}
         >
-          <Option value="Tất cả">Tất cả</Option>
+          <Option value="">Tất cả</Option>
           <Option value="true">Đã xong</Option>
           <Option value="false">Chưa xong</Option>
         </Select>
@@ -32,7 +31,7 @@ export default function FilterTask() {
           className="w-[150px]"
           onChange={handleFilter}
         >
-          <Option value="Tất cả">Tất cả</Option>
+          <Option value="">Tất cả</Option>
           <Option value="Cao">Cao</Option>
           <Option value="Trung bình">Trung bình</Option>
           <Option value="Thấp">Thấp</Option>

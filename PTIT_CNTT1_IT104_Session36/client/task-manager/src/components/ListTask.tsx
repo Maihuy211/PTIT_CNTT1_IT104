@@ -20,7 +20,7 @@ export default function ListTask() {
   const [taskToDelete, setTaskToDelete] = useState<Task>();
 
   useEffect(() => {
-    dispatch(getAllTask());
+    dispatch(getAllTask(""));
   }, [dispatch]);
 
   const getPriorityColor = (priority: string) => {
