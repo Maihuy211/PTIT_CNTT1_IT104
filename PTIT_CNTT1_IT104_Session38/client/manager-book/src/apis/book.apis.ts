@@ -17,7 +17,7 @@ export const getAllBook = createAsyncThunk(
       ...byTitle.data,
       ...byAuthor.data,
       ...byYear.data,
-      ...byCategory.data,
+      ...byCategory.data, 
     ];
 
     const unique = merged.filter(
